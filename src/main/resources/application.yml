@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: poc-spring-native
+
+data:
+  mongodb:
+    auto-index-creation: false
+    uri: mongodb://localhost:27017/poc-spring-native
+    database: poc-spring-native
